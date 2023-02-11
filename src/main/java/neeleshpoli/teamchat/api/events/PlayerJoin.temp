@@ -1,0 +1,12 @@
+package neeleshpoli.teamchat.api.events;
+
+import net.fabricmc.fabric.api.event.Event;
+import net.fabricmc.fabric.api.event.EventFactory;
+
+public interface PlayerJoin {
+    Event<PlayerJoin> EVENT = EventFactory.createArrayBacked(PlayerJoin.class, (listeners) -> (player, server) -> {
+        for (PlayerJoin listener : listener) {
+            
+        }
+    })
+}

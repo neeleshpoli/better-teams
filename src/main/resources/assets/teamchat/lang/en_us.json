@@ -1,0 +1,5 @@
+{
+    "teamchat.nonClient":           "Can only be executed by a player!",
+    "teamchat.chatChangedToTeam":   "Changed your chat to send messages to your team only",
+    "teamchat.chatChangedToAll" :   "Changed your chat to send messages to everyone"
+}
